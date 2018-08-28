@@ -322,6 +322,7 @@ class Snap():
 
         ax.minorticks_on()
         ax.tick_params(labelsize=20)
+        ax.set_aspect("equal")
         ax.set_xlabel(lbl[0],fontsize=20)
         ax.set_ylabel(lbl[1],fontsize=20)
         fig.tight_layout()
@@ -339,6 +340,7 @@ class Snap():
 
         ax.minorticks_on()
         ax.tick_params(labelsize=20)
+        ax.set_aspect("equal")
         ax.set_xlabel('$x$',fontsize=20)
         ax.set_ylabel('$y$',fontsize=20)
         fig.tight_layout()
